@@ -13,6 +13,7 @@ export default config => class Play {
   }
   preload() {
     this.load.image("plant", "./assets/Plant1.png");
+    this.load.image("plant2", "./assets/Plant2.png");
     this.load.spritesheet("Person1", "./assets/Person1.png", { frameWidth: 32, frameHeight: 32 });
     this.load.spritesheet("Person2", "./assets/Person2.png", { frameWidth: 32, frameHeight: 32 });
     this.load.spritesheet("Person3", "./assets/Person3.png", { frameWidth: 32, frameHeight: 32 });
